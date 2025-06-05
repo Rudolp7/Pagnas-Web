@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Integrantes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #c41d07a4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #900909;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-align: center;
+            font-style: oblique;
+        }
+
+        main {
+            margin: 20px 0;
+        }
+
+        h3, h4 {
+            background-color: #ffffff;
+            border-left: 5px solid #a00303;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #555;
+        }
+
+        section {
+            display: flex;
+            width: 600px;
+            height: 480px;
+            margin: 20px auto;
+        }
+
+        section img {
+            width: 50px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: 0.8;
+            transition: 0.5s ease;
+        }
+
+        section img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+
+        /* Recuadro con signo de interrogación */
+        .faq-box {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            width: 50px;
+            height: 50px;
+        }
+
+        .faq-box:hover {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.9);
+            font-size: 1em;
+        }
+
+        /* Contenido dentro del recuadro */
+        .faq-content {
+            display: none;
+            text-align: center;
+        }
+
+        .faq-box:hover .faq-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header style="position:relative;">
+        <h1>Integrantes de la Tuna</h1>
+        <img src="logo.png" alt="logo Tuna" width="90" height="90" style="position: absolute;top:10px;right:10px;">
+    </header>
+
+    <main>
+        <h3>Conoce a nuestros talentosos tunos</h3>
+        <div>
+            <section>
+                <img src="Tuno1.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno2.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno3.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno4.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno5.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno6.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno7.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno8.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno9.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno10.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno11.jpeg" alt="Imagen de la Tuna">
+                <img src="Tuno12.jpeg" alt="Imagen de la Tuna">
+            </section>
+        </div>
+
+        <h4>Conoce a nuestros Hermosos pardos</h4>
+        <div>
+        <section>
+                <img src="pardo1.jpeg" alt="Imagen de la Tuna">
+                <img src="pardo2.jpeg" alt="Imagen de la Tuna">
+                <img src="pardo3.jpeg" alt="Imagen de la Tuna">
+                <img src="pardo4.jpeg" alt="Imagen de la Tuna">
+                <img src="pardo5.jpeg" alt="Imagen de la Tuna">
+                <img src="pardo6.jpeg" alt="Imagen de la Tuna">
+
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tuna Hispanoamericana. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Recuadro de preguntas frecuentes -->
+    <div class="faq-box">
+        ?
+        <div class="faq-content">
+            <p><strong>Preguntas Frecuentes</strong></p>
+            <ul>
+                <li>¿Qué es una tuna?</li>
+                <li>¿Que instrumentos puedo tocar?</li>
+                <li>¿Cómo puedo unirme?</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
